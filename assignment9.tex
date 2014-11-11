@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[a4paper,top=1in,bottom=1in,right=1.5in,left=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+\date{}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\vfill
+\textbf{\Huge{EEP773
+\linebreak
+\\Telecom Software Lab}}\\
+\vspace{2cm}
+\textbf{\Large{Assignment No.9\vskip1cm}}
+\vskip2cm
+\large{Submitted By}\vskip0.02cm
+\Large{\textbf{\\Kanak chandra das\\
+Entry No:-2014JTM2260}}
+\vskip1.5cm
+%\includegraphics[scale=0.1]{iitd.png}\\
+\begin{center}
+ \includegraphics[bb=0 0 384 360,scale=0.35]{./iitd_logo.png}
+ % iitd.png: 512x480 pixel, 96dpi, 13.55x12.71 cm, bb=0 0 384 360
+\end{center}
+
+\vskip1cm
+\textbf{
+Indian Institute of Technology, Delhi\\
+\vskip0.5cm
+Date of Experiment:-}September 24,2014
+\vfill
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\section{Problem Statment}
+\begin{enumerate}
+ \item Here in thie assignment have to analyze a data file on the basis of different emoticons and words that reflect emotions.
+ \item Here already dictionary is given so have to count number of percentage times emotions occurs .
+ \item Find out the behaviour of user by which emotions he has used most  of times  in his conservation.
+\end{enumerate}
+\newpage
+ \section{Assumptions}
+\begin{enumerate}
+\item Here assume that for different emotions smiley is already given and consider only this two smiley for each emotions.
+\end{enumerate}
+ \section{Logic Used}
+ \begin{itemize}
+  \item Here I open a given content.txt file in read mode.
+  \item Read .txt file line by line and separate into words using loops.
+  \item Compare emotions in words and make count for it.
+  \item Count the total number of emotions.
+  \item Count and display percentage of emotions.
+ \end{itemize}
+ 
+ \newpage
+ \begin{figure}
+  
+
+
+\section{Snapshots}
+ 
+ \begin{center}
+ \includegraphics[bb=0 0 547 242,scale=0.9]{./kanak2.png}
+ \caption{Snapshot of output which shows percentage of emotions occurs.}
+ % 9_1.png: 729x323 pixel, 96dpi, 19.29x8.54 cm, bb=0 0 547 242
+\end{center}
+ \end{figure}
+ 
+ \newpage
+\section{References}
+ \begin{enumerate} 
+\item\url{ https://www.youtube.com/watch?v=_pCK3QAkNUk&list=PLE2FD418285B14940}
+\item\url{http://www.tutorialspoint.com/python/python_files_io.htm}
+\item\url{https://docs.python.org/2/tutorial/}
+ \end{enumerate}
+
+ 
+ \end{document}
+
+
+
+
